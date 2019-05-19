@@ -1,6 +1,6 @@
 {
   "name": "@lerna-test/package1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.11",
-    "lib1": "file:../../lib/lib1"
+    "lib1": "file:../../lib/lib1",
+    "lodash": "^4.17.11"
   }
 }
