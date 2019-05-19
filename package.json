@@ -1,0 +1,17 @@
+{
+  "name": "lerna-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test --scope @lerna-test/package1",
+    "new-version": "lerna version --conventional-commits --yes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
+}
