@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "lerna run test --scope @lerna-test/package1",
-    "new-version": "lerna version --conventional-commits --yes"
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   },
   "keywords": [],
   "author": "",
